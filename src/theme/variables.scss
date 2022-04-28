@@ -1,6 +1,77 @@
 // Ionic Variables and Theming. For more info, please see:
 // http://ionicframework.com/docs/theming/
 
+
+@font-face {
+  font-family: Montserrat;
+  src: local('Roboto Regular'), url(./../assets/fonts/montserrat/montserrat_extralight.ttf);
+  font-display: swap;
+  font-weight: 200;
+}
+@font-face {
+  font-family: Montserrat;
+  src: local('Roboto Regular'), url(./../assets/fonts/montserrat/montserrat_light.ttf);
+  font-display: swap;
+  font-weight: 300;
+}
+@font-face {
+  font-family: Montserrat;
+  src: local('Roboto Regular'), local('San Francisco'), url(./../assets/fonts/montserrat/montserrat_regular.ttf);
+  font-display: swap;
+}
+@font-face {
+  font-family: Montserrat;
+  src: local('Roboto Regular'), local('San Francisco'), url(./../assets/fonts/montserrat/montserrat_italic.ttf);
+  font-display: swap;
+  font-style: italic;
+}
+@font-face {
+  font-family: Montserrat;
+  src: local('Roboto Regular'), local('San Francisco'), url(./../assets/fonts/montserrat/montserrat_medium.ttf);
+  font-weight: 500;
+  font-display: swap;
+}
+@font-face {
+  font-family: Montserrat;
+  src: local('Roboto Regular'), local('San Francisco'), url(./../assets/fonts/montserrat/montserrat_mediumitalic.ttf);
+  font-weight: 500;
+  font-display: swap;
+  font-style: italic;
+}
+@font-face {
+  font-family: Montserrat;
+  src: local('Roboto Regular'), local('San Francisco'), url(./../assets/fonts/montserrat/montserrat_semibold.ttf);
+  font-weight: 600;
+  font-display: swap;
+}
+@font-face {
+  font-family: Montserrat;
+  src: local('Roboto Regular'), local('San Francisco'),  url(./../assets/fonts/montserrat/montserrat_bold.ttf);
+  font-weight: 700;
+  font-display: swap;
+}
+@font-face {
+  font-family: Montserrat;
+  src: local('Roboto Regular'), local('San Francisco'),  url(./../assets/fonts/montserrat/montserrat_bolditalic.ttf);
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: Montserrat;
+  src: local('Roboto Regular'), local('San Francisco'),  url(./../assets/fonts/montserrat/montserrat_extrabold.ttf);
+  font-weight: 800;
+  font-display: swap;
+}
+@font-face {
+  font-family: Montserrat;
+  src: local('Roboto Regular'), local('San Francisco'),  url(./../assets/fonts/montserrat/montserrat_black.ttf);
+  font-weight: 900;
+  font-display: swap;
+}
+
+
+
 /** Ionic CSS Variables **/
 :root {
   /** primary **/
@@ -74,6 +145,9 @@
   --ion-color-light-contrast-rgb: 0, 0, 0;
   --ion-color-light-shade: #d7d8da;
   --ion-color-light-tint: #f5f6f9;
+
+
+  --ion-font-family: Montserrat;
 }
 
 @media (prefers-color-scheme: dark) {

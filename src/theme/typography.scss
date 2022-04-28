@@ -1,0 +1,100 @@
+h1 {
+    &[holiday-style="large-title"] {
+        font-family: var(--ion-font-family);
+        font-weight: 600;
+        line-height: normal;
+
+        font-size: 34px;
+        letter-spacing: -0.02em;
+    }
+
+    &[holiday-style="title-1"] {
+        font-family: var(--ion-font-family);
+        font-weight: 600;
+        line-height: normal;
+
+        font-size: 28px;
+        letter-spacing: 0.05em;
+    }
+
+    &[holiday-style="title-2"] {
+        font-family: var(--ion-font-family);
+        font-weight: 600;
+        line-height: normal;
+
+        font-size: 22px;
+        letter-spacing: -0.02em;
+    }
+}
+
+h2 {
+    &[holiday-style="title-3"] {
+        font-family: var(--ion-font-family);
+        font-weight: 500;
+        line-height: normal;
+
+        font-size: 20px;
+        letter-spacing: 0;
+    }
+
+    &[holiday-style="headline"] {
+        font-family: var(--ion-font-family);
+        font-weight: 500;
+        line-height: normal;
+
+        font-size: 17px;
+        letter-spacing: 0;
+    }
+}
+
+p,
+span {
+    &[holiday-style="body"] {
+        font-family: var(--ion-font-family);
+        font-weight: 400;
+        line-height: normal;
+
+        font-size: 17px;
+        letter-spacing: 0;
+    }
+
+    &[holiday-style="button-text"] {
+        font-family: var(--ion-font-family);
+        font-weight: 400;
+        line-height: normal;
+
+        font-weight: 600;
+        font-size: 13px;
+        letter-spacing: 0.04em;
+    }
+
+    &[holiday-style="data"] {
+        font-family: var(--ion-font-family);
+        font-weight: 400;
+        line-height: normal;
+
+        font-weight: 600;
+        font-size: 17px;
+        letter-spacing: 0;
+    }
+
+    &[holiday-style="subtext"] {
+        font-family: var(--ion-font-family);
+        font-weight: 400;
+        line-height: normal;
+
+        font-weight: 400;
+        font-size: 12px;
+        letter-spacing: 0;
+    }
+
+    &[holiday-style="subtext-semibold"] {
+        font-family: var(--ion-font-family);
+        font-weight: 400;
+        line-height: normal;
+
+        font-weight: 600;
+        font-size: 12px;
+        letter-spacing: 0;
+    }
+}
