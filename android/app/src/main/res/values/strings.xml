@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">holidays</string>
+    <string name="title_activity_main">holidays</string>
+    <string name="package_name">com.holiday.app</string>
+    <string name="custom_url_scheme">com.holiday.app</string>
+</resources>

@@ -1,9 +1,21 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>detail</ion-title>
+<ion-header class="ion-no-border" translucent>
+  <ion-toolbar  color="translucent">
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="holidays"  color="light"></ion-back-button>
+    </ion-buttons>    
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
+<ion-content [fullscreen]="true">
+  <div>
+    <section class="header-section ion-padding animate__animated animate__slideInDown  bg-8" *ngIf="country">
+      <h1 holiday-style="large-title">{{country.name}}</h1> 
+    </section>
 
+    <section class="ion-padding"  *ngIf="holidays$ | async as holidaysArray">
+      <ion-list>
+        <holiday-item [holiday]="holiday" *ngFor="let holiday of holidaysArray.holidays"></holiday-item>
+      </ion-list>
+    </section>
+  </div>
 </ion-content>

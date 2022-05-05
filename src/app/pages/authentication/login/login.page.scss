@@ -1,0 +1,27 @@
+.header-section{
+    // background-color: var(--ion-color-lemon);
+    color: var(--ion-color-white);
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.login-input{
+    background-color: var(--ion-color-light-grey);
+    margin-bottom: 10px;
+    border-radius: 6px;
+}
+
+
+.login-section{
+    padding-top: 40px;
+}
+
+.login-button{
+    --background: var(--ion-color-secondary);
+    --box-shadow: none;
+    height: 50px;
+    --border-radius: 6px;
+    color: var(--ion-color-light);
+}

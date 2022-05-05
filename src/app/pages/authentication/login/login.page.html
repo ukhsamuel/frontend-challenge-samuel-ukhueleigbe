@@ -1,9 +1,49 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>login</ion-title>
-  </ion-toolbar>
-</ion-header>
-
 <ion-content>
+  <div class="page-container">
+    <section class="header-section bg-8 ion-padding">
+      <h1 holiday-style="large-title">
+        Hey, <br />
+        Login Now.
+      </h1>
+      <p>welcome to holiday app</p>
+    </section>
 
+    <section class="login-section ion-padding">
+      <form class="form-content" [formGroup]="loginForm" novalidate>
+        <ion-item color="none" class="login-input" lines="none">
+          <ion-input
+            placeholder="Email Address"
+            name="userId"
+            formControlName="email"
+            type="text"
+            required
+          ></ion-input>
+        </ion-item>
+
+        <ion-item color="none" class="login-input" lines="none">
+          <ion-input
+            name="password"
+            placeholder="Password"
+            formControlName="password"
+            [type]="showPassword ? 'text' : 'password'"
+          ></ion-input>
+          <ion-icon
+            class="pass-eye"
+            slot="end"
+            [name]="passwordToggleIcon"
+            (click)="togglePassword()"
+          ></ion-icon>
+        </ion-item>
+
+        <ion-button
+          (click)="login()"
+          [disabled]="loginForm.invalid"
+          type="submit"
+          expand="block"
+          class="login-button"
+          >Submit</ion-button
+        >
+      </form>
+    </section>
+  </div>
 </ion-content>

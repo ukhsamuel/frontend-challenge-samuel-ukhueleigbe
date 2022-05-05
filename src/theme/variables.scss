@@ -148,7 +148,28 @@
 
 
   --ion-font-family: Montserrat;
+  --ion-color-lemon: #8ACAC0;
+  --ion-color-white: #ffffff;
+  --ion-color-light-grey: #F5F5F5;
+
+
+
+--ion-purplepink-gradient: linear-gradient(269.95deg, #E124FF 0.02%, #792EEB 97.45%);
+--ion-orangeyellow-gradient: linear-gradient(347.12deg, #FFD522 -31.67%, #FF701C 83.33%);
+--ion-blueblue-gradient: linear-gradient(180deg, #2F83ED 0%, #29BAEB 100%);
+--ion-redwhite-gradient: linear-gradient(163.68deg, #FF0000 -4.11%, #FF5252 88.31%, #FFA5A5 115.81%, #FFA068 134.8%);
+--ion-greengreen-gradient: linear-gradient(180deg, #1DB751 0%, #39D46F 100%);
+--ion-greengreenlight-gradient: linear-gradient(180deg, #23FC6C 0%, #02C751 100%);
+--ion-yelloworange-gradient: linear-gradient(302.47deg, #FFD422 29.16%, #FF701C 65.93%);
+--ion-bluecyan-gradient: linear-gradient(180deg, #2F80ED 0%, #28BCEB 100%);
+--ion-cyancyan-gradient: linear-gradient(180deg, #01F1E3 0%, #01F1E3 100%);
+--ion-redred-gradient: linear-gradient(163.68deg, #FF0000 -4.11%, #FF5252 88.31%, #FFA5A5 115.81%, #FFA068 134.8%);
+
+  
+
 }
+
+
 
 @media (prefers-color-scheme: dark) {
   /*

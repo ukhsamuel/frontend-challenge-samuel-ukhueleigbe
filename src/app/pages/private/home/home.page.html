@@ -1,9 +1,42 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>home</ion-title>
-  </ion-toolbar>
-</ion-header>
-
 <ion-content>
+  <div class="page-container">
+    <section class="header-section ion-padding">
+      <h1 holiday-style="title-2">Hello There,</h1>
+      <p holiday-style="title-3">welcome back</p>
+    </section>
 
+    <div class="ion-padding">
+      <ion-input
+        class="search-box"
+        [(ngModel)]="searchTerm"
+        name="search"
+        placeholder="Filter Countries..."
+        type="text"
+      ></ion-input>
+
+      <div class="countries-grid">
+        <p holiday-style="title-3">Tap on a country below to see holidays</p>
+
+        <skeleton-loader-dynamic
+          [cols]="2"
+          *ngIf="!(countries$ | async)"
+        ></skeleton-loader-dynamic>
+
+        <ion-row
+          class="ion-no-padding"
+          *ngIf="countries$ | async as countriesArray"
+        >
+          <ion-col
+            size="6"
+            *ngFor="let country of countriesArray.countries  | filter:searchTerm"
+          >
+            <country
+              [country]="country"
+              (click)="viewCountry(country)"
+            ></country>
+          </ion-col>
+        </ion-row>
+      </div>
+    </div>
+  </div>
 </ion-content>

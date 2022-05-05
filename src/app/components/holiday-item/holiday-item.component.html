@@ -1,3 +1,7 @@
-<p>
-  holiday-item works!
-</p>
+<ion-item lines="full" class=" animate__animated animate__fadeInLeft">
+  <span slot="start" class="date-badge  bg-8">
+    <ion-icon color="white" name="calendar"></ion-icon>
+    {{holiday.date | date:'MM/dd'}}
+  </span>
+  <h2 holiday-style="title-3">{{holiday.name}}</h2>
+</ion-item>
