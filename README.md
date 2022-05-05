@@ -2,9 +2,9 @@
 
 Ionic App built Angular + RxJs + Capacitor
 
-##Download Apk
+## Download Apk
 
-[a link](https://drive.google.com/file/d/1qBkxvLbfmw9vEU-VxrkHukWW_HF2DQmv/view?usp=sharing)
+[Download App](https://drive.google.com/file/d/1qBkxvLbfmw9vEU-VxrkHukWW_HF2DQmv/view?usp=sharing)
 
 ## Screen Shots
 
