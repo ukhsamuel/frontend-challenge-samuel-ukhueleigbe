@@ -4,7 +4,7 @@ Ionic App built Angular + RxJs + Capacitor
 
 ##Download Apk
 
-[a relative link](holiday.apk)
+[a relative link](../../holiday.apk)
 
 ## Screen Shots
 
