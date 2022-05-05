@@ -1,5 +1,7 @@
-# frontend-challenge-samuel-ukhueleigbe
+### frontend-challenge-samuel-ukhueleigbe
 
 Ionic App built Angular + RxJs + Capacitor
 
-![Screenshot](screenshot1.JPEG)
+## Screen Shots
+
+![Screenshot](flow.gif)
